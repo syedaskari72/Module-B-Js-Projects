@@ -4,8 +4,8 @@
 
 body{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    background-color: grey;
-    color: red;
+    background-color: rgb(201, 41, 121);
+    color: black;
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -20,23 +20,30 @@ h1{
     font-size: 45px;
     font: outline;
     align-items: center;
-    font-weight: solid bold red;
+    font-weight: solid bold black;
 }
 
 ol{
     padding: 10px;
     border-bottom: 10px;
-    color: red;
+    color: black;
     display: flex;
     flex-direction: column;
 }
 li{
-    padding: 5px;
+    padding: 10px;
     border: grey;
     font-size: 25px;
     margin: 0;
+    list-style-type: decimal;
 }
 a{
     text-decoration: none;
-    color: red;
+    color: black;
+}
+
+.container {
+    background-color: rgba(252, 215, 9, 0.89);
+    padding: 30px;
+    border-radius: 20px;
 }
